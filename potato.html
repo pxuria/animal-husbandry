@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="shortcut icon" href="assets/pars-sheede-raw-log.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous" />
+  <!-- animation css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- customized css -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/potatoStyle.css" />
+  <title>پارس شیده</title>
+</head>
+
+<body>
+  <div class="language bg-light border p-3 pt-2 pb-2 text-start" onclick="toggleSwitcher()" id="language">
+    <div>
+      <h6 class="h6 text-center">انتخاب زبان</h6>
+      <div class="d-flex align-items-center justify-content-between">
+        <img src="./assets/Flag_of_Iran.png" alt="" class="flag" onclick="translateToPersian()">
+        <img src="./assets/Flag_of_the_United_Kingdom.png" alt="" class="flag" onclick="translateToUK()">
+      </div>
+    </div>
+    <div class="bottom">
+      <a href="javascript: void(0);" class="bg-light d-flex align-items-center justify-content-center">
+        <i class="bi bi-gear-fill fs-4"></i>
+      </a>
+    </div>
+  </div>
+
+  <header id="header"></header>
+  <!-- end header -->
+
+  <!-- main part of landing page -->
+  <main>
+    <div class="container">
+      <!-- first paragraph -->
+      <section class="d-flex align-items-center justify-content-center mt-10">
+        <div class="row align-items-start">
+          <div class="col-12 col-lg-6">
+            <div class="first-p">
+              <div class="border-bottom-blue-full mb-4 mt-3-5"></div>
+              <div
+                class="d-flex flex-col card border-0 shadow-lg border-rad-2 wow animate__animated animate__zoomIn py-4 px-3"
+                dir="rtl">
+                <p class="text-muted fw-bolder text-center paragraph" dir="rtl">
+                  سیب زمینی سبزیجاتی است که برای هزاران سال کشت شده است. این
+                  سبزی اولین بار توسط مردم بومی منطقه کوه‌های آندس در آمریکای
+                  جنوبی به ۷۰۰۰ سال قبل درون خاک های پرو کشت می شد. سیب زمینی در قرن
+                  شانزدهم توسط فرمانداران اسپانیایی به اروپا هدیه داده شد و به
+                  سرعت یک محصول عمومی شد.
+
+                </p>
+                <p class="text-muted fw-bolder text-center paragraph" dir="rtl">
+                  امروزه، سیب‌زمینی در سراسر جهان کشت می‌شود و نه تنها در آشپزی
+                  بلکه در بسیاری از دسرها و خوراکی ها هم به کار می‌رود. این سبزی کاربردهای
+                  فراوانی دارد و انواع آن سیب زمینی پوست قهوه‌ای ، سیب زمینی طلایی ، سیب زمینی شیرین ،سیب زمینی قرمز،
+                  سیب
+                  زمینی استانبولی، سیب زمینی بنفش و ... می توان نام برد.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 text-center wow animate__animated animate__slideInRight">
+            <h2 class="fw-bold mb-4 header-swiper">انواع سیب زمینی</h2>
+            <div class="border-bottom-blue-full mb-5-2"></div>
+            <div class="swiper mySwiper mt-4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/sib1.png" loading="lazy" class="main-img img-fluid" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/sib2.jpg" loading="lazy" class="main-img img-fluid" alt="" />
+
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/sib3.jpg" loading="lazy" class="main-img img-fluid" alt="" />
+
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/sib4.jpg" loading="lazy" class="main-img img-fluid" alt="" />
+
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/sib5.jpg" loading="lazy" class="main-img img-fluid" alt="" />
+
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/sib6.png" loading="lazy" class="main-img img-fluid" alt="" />
+
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/sib7.jpg" loading="lazy" class="main-img img-fluid" alt="" />
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- second paragraph -->
+    <section id="services" class="d-flex align-items-center justify-content-center mb-10">
+      <div class="bubble-bg">
+        <div class="container">
+          <div class="row flex-column-reverse flex-lg-row align-items-center">
+            <div class="col-12 col-lg-6 text-center">
+              <img src="./assets/potato-pic.jpg" loading="lazy"
+                class="main-img img-fluid shadow-lg wow animate__animated animate__rotateInDownLeft" alt="" />
+            </div>
+            <div class="col-12 col-lg-6 wow animate__animated animate__slideInUp" dir="rtl">
+              <div class="sec-p">
+                <div class="border-bottom-blue-full my-4"></div>
+                <div class="card border-0 px-3 py-4 shadow border-rad-2">
+                  <p class=" text-muted fw-bolder text-center paragraph" dir="rtl">
+                    سیب زمینی یکی از انواع سبزیجات بسیار مقوی و دارای خواص بی‌نظیر است. همچنین حجم زیادی از مواد مغذی را
+                    درون خودش جای داده است. پتاسیم و ویتامین سی در سیب زمینی بسیار زیاد است و می‌توان با مصرف سیب زمینی
+                    پخته و جای دادن آن در سبد غذایی، این مواد مغذی را در بدن تامین کرد.
+                  </p>
+                  <p class="text-muted fw-bolder text-center paragraph" dir="rtl">از جمله غذا هایی که می توان با استفاده
+                    از سیب زمینی درست کرد : سیب زمینی با سیر و پنیر،کیک پوره سیب زمینی، سالاد سیب زمینی آلمانی، سالاد
+                    سیب زمینی خامه ای و... .
+                    سیب زمینی به عنوان چهارمین غذای پرمصرف در جهان بعد از برنج، گندم و ذر
+                    شناخته می‌شود و نشاسته موجود
+                    در آن، انرژی مورد نیاز بدن را برای کار و فعالیت تامین می‌کند.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- end main -->
+
+  <!-- footer -->
+  <footer id="footer" class="d-flex mt-14"></footer>
+  <!-- end footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- JQuery script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- tilt js -->
+  <script src="./js/Tilt.js"></script>
+  <!-- wow js -->
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- customized js -->
+  <script src="./js/potato.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

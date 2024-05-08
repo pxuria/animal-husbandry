@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="shortcut icon" href="assets/pars-sheede-raw-log.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous" />
+  <!-- animation css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- customized css -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/sheepStyle.css" />
+  <title>پارس شیده</title>
+</head>
+
+<body>
+  <div class="language bg-light border p-3 pt-2 pb-2 text-start" onclick="toggleSwitcher()" id="language">
+    <div>
+      <h6 class="h6 text-center">انتخاب زبان</h6>
+      <div class="d-flex align-items-center justify-content-between">
+        <img src="./assets/Flag_of_Iran.png" alt="" class="flag" onclick="translateToPersian()">
+        <img src="./assets/Flag_of_the_United_Kingdom.png" alt="" class="flag" onclick="translateToUK()">
+      </div>
+    </div>
+    <div class="bottom">
+      <a href="javascript: void(0);" class="bg-light d-flex align-items-center justify-content-center">
+        <i class="bi bi-gear-fill fs-4"></i>
+      </a>
+    </div>
+  </div>
+
+  <header id="header"></header>
+  <!-- end header -->
+
+  <!-- main part of landing page -->
+  <main>
+    <div class="container">
+      <!-- first paragraph -->
+      <section class="d-flex align-items-center justify-content-center mt-10">
+        <div class="row align-items-start">
+          <div class="col-12 col-lg-6 first-p">
+            <div class="border-bottom-blue-full mb-4 mt-3-5"></div>
+            <div
+              class="d-flex flex-col card border-0 shadow-lg border-rad-2 wow animate__animated animate__zoomIn py-4 px-3"
+              dir="rtl">
+              <p class="text-muted fw-bolder text-center paragraph" dir="rtl">
+                گوسفند یکی از مهمترین حیوانات پرورشی در جهان است. آنها برای پشم
+                و گوشتشان که از هزاران سال قبل توسط انسان‌ها استفاده می‌شده اند
+                شناخته شده اند. در سال‌های اخیر، علاقه‌ای به گوسفندان با کیفیت
+                بالا که در بهترین شرایط ممکن پرورش یافته‌اند، به وجود آمده است.
+              </p>
+              <p class="text-muted fw-bolder text-center paragraph" dir="rtl">
+                یکی از عوامل اصلی در تولید گوسفندان با کیفیت بالا، محیطی است که
+                آنها در آن پرورش می‌یابند. گوسفندان در مناطقی با مراتع فراوان،
+                آب تمیز و دمای ملایم بهتر رشد می‌کنند. در این محیط، احتمال ابتلا
+                به مشکلات سلامتی کمتر است، که می‌تواند تأثیر منفی بر کیفیت گوشت
+                یا پشم آنها داشته باشد.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 text-center wow animate__animated animate__slideInRight">
+            <h2 class="fw-bold mb-4 header-swiper">انواع گوسفند </h2>
+            <div class="border-bottom-blue-full mb-5-2"></div>
+            <div class="swiper mySwiper mt-4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/sheep1.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep2.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep3.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep4.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep5.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep6.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep7.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="./assets/sheep8.jpg" loading="lazy" class="main-img-carousel img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- second paragraph -->
+      <section id="services" class="d-flex align-items-center justify-content-center mb-10">
+        <div class="row services-row flex-column-reverse flex-lg-row align-items-center">
+          <div
+            class="col-12 col-lg-6 offset-lg-1 text-center app-feature-shape-right position-relative wow animate__animated animate__rollIn">
+            <img src="./assets/green.png" class="main-img img-fluid service-shape shadow-lg" loading="lazy" alt="" />
+          </div>
+          <div class="col-12 col-lg-5 flex flex-col sec-p" dir="rtl">
+            <div class="border-bottom-blue-full my-4"></div>
+
+            <div class="card border-0 shadow-lg border-rad-2  py-4 px-3">
+              <p class="text-muted fw-bolder text-center paragraph wow animate__animated animate__fadeInDown" dir="rtl">
+                در هنگام پرورش گوسفندان برای مصرف به عنوان گوشت ، حیوانات باید
+                به یک رژیم غذایی سالم و متعادل تأمین شود. این عموما شامل خوراک
+                با کیفیت بالا و آب تازه است، همچنین برای تأمین مواد مغذی،
+                مکمل‌ها نیز در موارد لازم استفاده می‌شوند. علاوه بر تغذیه،
+                گوسفندان باید در محیطی با استرس کم و فضایی لازم برای چریدن،
+                پرورش داده شوند.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- price list table -->
+    <div class="container">
+      <section id="prices" class="overflow-auto mb-15 mt-8">
+        <div class="price-list-header">
+          <h2 class="h2 my-5 wow animate__animated animate__fadeInRight" dir="rtl">
+            لیست قیمت های دام زنده
+          </h2>
+        </div>
+
+        <table class="table table-hover wow animate__animated animate__fadeInLeft" dir="rtl">
+          <thead>
+            <tr>
+              <th scope="col">استان / قیمت</th>
+              <th scope="col">حداقل</th>
+              <th scope="col">حداکثر</th>
+              <th scope="col">میانگین</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" id="tehran">تهران</th>
+              <td>1,580,000</td>
+              <td>1,432,500</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="yazd">یزد</th>
+              <td>1,650,000</td>
+              <td>1,432,500</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="esfehan">اصفهان</th>
+              <td>1,500,000</td>
+              <td>1,500,000</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="fars">فارس</th>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="hamedan">همدان</th>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="qom">قم</th>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="markazi">مرکزی</th>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+            </tr>
+            <tr>
+              <th scope="row" id="chaharMahalBakhtiari">چهارمحال بختياري</th>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+              <td>1,400,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+  <!-- end main -->
+
+  <!-- footer -->
+  <footer id="footer" class="d-flex mt-14"></footer>
+  <!-- end footer -->
+
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- JQuery script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- wow js -->
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- customized js -->
+  <script src="./js/sheep.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
